@@ -7,36 +7,20 @@ class Tutorial extends Phaser.Scene {
     preload() {
         // Load Map Rooms
         this.load.image('1exitRoomM', './assets/map/1Map_r_a.png');
-        this.load.image('1exitHallM', './assets/map/1Map_h_a.png');
         this.load.image('2exitRoomCornerM', './assets/map/2Map_rc_a.png');
         this.load.image('2exitHallCornerM', './assets/map/2Map_hc_a.png');
-        this.load.image('2exitRoomM', './assets/map/2Map_r_a.png');
-        this.load.image('2exitHallM', './assets/map/2Map_h_a.png');
-        this.load.image('3exitRoomM', './assets/map/3Map_r_a.png');
         this.load.image('3exitHallM', './assets/map/3Map_h_a.png');
         this.load.image('4exitRoomM', './assets/map/4Map_r.png');
         this.load.image('4exitHallM', './assets/map/4Map_h.png');
-        this.load.image('1exitM', './assets/map/1Map_e_a.png');
-        this.load.image('2exitCornerM', './assets/map/2Map_ec_a.png');
-        this.load.image('2exitM', './assets/map/2Map_e_a.png');
-        this.load.image('3exitM', './assets/map/3_Map_e_a.png');
         this.load.image('4exitM', './assets/map/4Map_e.png');
 
         // Load Rooms
         this.load.image('1exitRoom', './assets/rooms/1Room.png');
-        this.load.image('1exitHall', './assets/rooms/1Hallway.png');
         this.load.image('2exitRoomCorner', './assets/rooms/2Room_a.png');
         this.load.image('2exitHallCorner', './assets/rooms/2Hallway_a.png');
-        this.load.image('2exitRoom', './assets/rooms/2Room_b.png');
-        this.load.image('2exitHall', './assets/rooms/2Hallway_b.png');
-        this.load.image('3exitRoom', './assets/rooms/3Room.png');
         this.load.image('3exitHall', './assets/rooms/3Hallway.png');
         this.load.image('4exitRoom', './assets/rooms/4Room.png');
         this.load.image('4exitHall', './assets/rooms/4Hallway.png');
-        this.load.image('1exit', './assets/rooms/1Exit.png');
-        this.load.image('2exitCorner', './assets/rooms/2Exit_a.png');
-        this.load.image('2exit', './assets/rooms/2Exit_b.png');
-        this.load.image('3exit', './assets/rooms/3Exit.png');
         this.load.image('4exit', './assets/rooms/4Exit.png');
 
         // Load Character
@@ -61,11 +45,11 @@ class Tutorial extends Phaser.Scene {
         {frameWidth: 120, frameHeight: 120, startFrame: 0, endFrame: 7});
 
         // Load Invisible Assets
-        this.load.image('temp60x10', './assets/placeholders/temp60x10.png');
-        this.load.image('temp10x60', './assets/placeholders/temp10x60.png');
-        this.load.image('temp50x10', './assets/placeholders/temp50x10.png');
-        this.load.image('temp10x50', './assets/placeholders/temp10x50.png');
-        this.load.image('emptySquare', './assets/placeholders/Empty.png');
+        this.load.image('temp60x10', './assets/invisible/temp60x10.png');
+        this.load.image('temp10x60', './assets/invisible/temp10x60.png');
+        this.load.image('temp50x10', './assets/invisible/temp50x10.png');
+        this.load.image('temp10x50', './assets/invisible/temp10x50.png');
+        this.load.image('emptySquare', './assets/invisible/Empty.png');
 
         // Load Sound
         this.load.audio('roomSlide', './assets/sounds/roomSlide.wav');
