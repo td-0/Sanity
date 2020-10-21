@@ -4,4 +4,4 @@ Sanity is a game about escaping a dungeon before your character loses their sani
 
 This game was built remotely by Timothy Durbin and Giovanni Wenzler during the early part of the COVID-19 pandemic.
 
-Play the Game: https://td-0.github.io/Sanity
+[Play the Game](https://td01.itch.io/sanity)
